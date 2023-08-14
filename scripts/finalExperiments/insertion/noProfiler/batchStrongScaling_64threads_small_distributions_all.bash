@@ -1,0 +1,3 @@
+sh ./scripts/finalExperiments/insertion/noProfiler/batchStrongScaling_64threads_small_distributions.bash
+sh ./scripts/finalExperiments/insertion/noProfiler/batchStrongScaling_64threads_small_distributions_cpma.bash
+sh ./scripts/finalExperiments/insertion/noProfiler/batchStrongScaling_64threads_small_distributions_parallelBST.bash

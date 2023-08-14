@@ -1,0 +1,130 @@
+{
+  "version": 3,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 16
+  },
+  "configurePresets": [
+    {
+      "name": "release",
+      "displayName": "Release Preset",
+      "binaryDir": "build",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "CMAKE_CONFIG": "ReleaseWithoutTests",
+        "INCLUDE_TESTS": "OFF",
+        "INCLUDE_COMPETITORS": "OFF",
+        "INCLUDE_TUNING": "OFF"
+      }
+    },
+    {
+      "name": "releaseCompetitors",
+      "displayName": "Release Preset with Competitors",
+      "binaryDir": "build",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "CMAKE_CONFIG": "ReleaseWithoutTestsWithCompetitors",
+        "INCLUDE_TESTS": "OFF",
+        "INCLUDE_COMPETITORS": "ON",
+        "INCLUDE_TUNING": "OFF"
+      }
+    },
+    {
+      "name": "releaseTuning",
+      "displayName": "Release Preset with tuning experiment",
+      "binaryDir": "build",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "CMAKE_CONFIG": "ReleaseWithoutTestsWithTuning",
+        "INCLUDE_TESTS": "OFF",
+        "INCLUDE_COMPETITORS": "OFF",
+        "INCLUDE_TUNING": "ON"
+      }
+    },
+    {
+      "name": "debugCompetitors",
+      "displayName": "Debug Preset with Competitors",
+      "binaryDir": "build",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CMAKE_CONFIG": "DebugWithTestsWithCompetitors",
+        "INCLUDE_TESTS": "ON",
+        "INCLUDE_COMPETITORS": "ON",
+        "INCLUDE_TUNING": "OFF"
+      }
+    },
+    {
+      "name": "debug",
+      "displayName": "Debug Preset",
+      "binaryDir": "build",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CMAKE_CONFIG": "DebugWithoutTests",
+        "INCLUDE_TESTS": "OFF",
+        "INCLUDE_COMPETITORS": "OFF",
+        "INCLUDE_TUNING": "OFF"
+      }
+    },
+    {
+      "name": "releaseTest",
+      "displayName": "Release Preset With Tests",
+      "binaryDir": "build",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "CMAKE_CONFIG": "ReleaseWithTests",
+        "INCLUDE_TESTS": "ON",
+        "INCLUDE_COMPETITORS": "OFF",
+        "INCLUDE_TUNING": "OFF"
+      }
+    },
+    {
+      "name": "debugTest",
+      "displayName": "Debug Preset With Tests",
+      "binaryDir": "build",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CMAKE_CONFIG": "DebugWithTests",
+        "INCLUDE_TESTS": "ON",
+        "INCLUDE_COMPETITORS": "OFF",
+        "INCLUDE_TUNING": "OFF"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "release",
+      "displayName": "Release Build preset",
+      "configurePreset": "release"
+    },
+    {
+      "name": "releaseTuning",
+      "displayName": "Release Build preset with tuning experiments",
+      "configurePreset": "releaseTuning"
+    },
+    {
+      "name": "releaseCompetitors",
+      "displayName": "Release Build preset with competitors",
+      "configurePreset": "releaseCompetitors"
+    },
+    {
+      "name": "debugCompetitors",
+      "displayName": "Debug Build preset with competitors and tests",
+      "configurePreset": "debugCompetitors"
+    },
+    {
+      "name": "debug",
+      "displayName": "Debug Build preset",
+      "configurePreset": "debug"
+    },
+    {
+      "name": "releaseTest",
+      "displayName": "Release Build preset with tests",
+      "configurePreset": "releaseTest"
+    },
+    {
+      "name": "debugTest",
+      "displayName": "Debug Build preset with tests",
+      "configurePreset": "debugTest"
+    }
+  ]
+}

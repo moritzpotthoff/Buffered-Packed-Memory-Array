@@ -1,0 +1,2 @@
+sh ./scripts/finalExperiments/insertionOverallocated/sequentialProfiler/batchOverallocationFactorExperiment.bash
+sh ./scripts/finalExperiments/insertionOverallocated/noProfiler/batchBlockSizeExperiment.bash

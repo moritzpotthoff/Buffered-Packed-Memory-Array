@@ -1,0 +1,114 @@
+export OMP_PLACES={0}:128:1
+export OMP_PROC_BIND=true
+rm ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 uniform 0          100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 uniform 1000000    100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 uniform 2000000    100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 uniform 4000000    100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 uniform 8000000    100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 uniform 16000000   100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 uniform 32000000   100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 uniform 64000000   100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 uniform 128000000  100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 uniform 256000000  100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 uniform 512000000  100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 uniform 1024000000 100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 uniform 2048000000 100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+
+./build/benchmark/BatchBenchmark 5 ascending 0          100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 ascending 1000000    100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 ascending 2000000    100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 ascending 4000000    100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 ascending 8000000    100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 ascending 16000000   100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 ascending 32000000   100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 ascending 64000000   100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 ascending 128000000  100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 ascending 256000000  100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 ascending 512000000  100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 ascending 1024000000 100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 ascending 2048000000 100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+
+./build/benchmark/BatchBenchmark 5 denseNormal 0          100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 denseNormal 1000000    100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 denseNormal 2000000    100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 denseNormal 4000000    100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 denseNormal 8000000    100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 denseNormal 16000000   100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 denseNormal 32000000   100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 denseNormal 64000000   100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 denseNormal 128000000  100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 denseNormal 256000000  100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 denseNormal 512000000  100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 denseNormal 1024000000 100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 denseNormal 2048000000 100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+
+./build/benchmark/BatchBenchmark 5 descending 0          100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 descending 1000000    100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 descending 2000000    100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 descending 4000000    100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 descending 8000000    100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 descending 16000000   100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 descending 32000000   100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 descending 64000000   100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 descending 128000000  100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 descending 256000000  100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 descending 512000000  100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 descending 1024000000 100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 descending 2048000000 100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+
+./build/benchmark/BatchBenchmark 5 normal 0          100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 normal 1000000    100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 normal 2000000    100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 normal 4000000    100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 normal 8000000    100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 normal 16000000   100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 normal 32000000   100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 normal 64000000   100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 normal 128000000  100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 normal 256000000  100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 normal 512000000  100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 normal 1024000000 100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 normal 2048000000 100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+
+./build/benchmark/BatchBenchmark 5 zipf 0          100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 zipf 1000000    100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 zipf 2000000    100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 zipf 4000000    100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 zipf 8000000    100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 zipf 16000000   100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 zipf 32000000   100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 zipf 64000000   100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 zipf 128000000  100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 zipf 256000000  100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 zipf 512000000  100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 zipf 1024000000 100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 zipf 2048000000 100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+
+./build/benchmark/BatchBenchmark 5 ascendingStar 0          100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 ascendingStar 1000000    100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 ascendingStar 2000000    100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 ascendingStar 4000000    100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 ascendingStar 8000000    100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 ascendingStar 16000000   100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 ascendingStar 32000000   100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 ascendingStar 64000000   100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 ascendingStar 128000000  100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 ascendingStar 256000000  100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 ascendingStar 512000000  100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 ascendingStar 1024000000 100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 ascendingStar 2048000000 100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+
+./build/benchmark/BatchBenchmark 5 descendingStar 0          100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 descendingStar 1000000    100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 descendingStar 2000000    100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 descendingStar 4000000    100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 descendingStar 8000000    100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 descendingStar 16000000   100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 descendingStar 32000000   100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 descendingStar 64000000   100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 descendingStar 128000000  100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 descendingStar 256000000  100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 descendingStar 512000000  100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 descendingStar 1024000000 100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt
+./build/benchmark/BatchBenchmark 5 descendingStar 2048000000 100 64 1.0 0.0 0.0 1000000 42 10000000000000 >> ../master-thesis/eval/data/finalExperiments/insertion/noProfiler/batchDataStructureSizeInfluence.txt

@@ -1,0 +1,9 @@
+[submodule "lib/Catch2"]
+	path = lib/Catch2
+	url = git@github.com:catchorg/Catch2.git
+[submodule "lib/oneTBBsource"]
+	path = lib/oneTBBsource
+	url = https://github.com/oneapi-src/oneTBB
+[submodule "CPMA/CPMA-test-repo"]
+	path = CPMA/CPMA-test-repo
+	url = git@github.com:moritzpotthoff/Packed-Memory-Array.git
