@@ -1,6 +1,6 @@
 # Batch-Parallel Packed Memory Array
 
-Code repository for my master thesis on batch-parallel packed memory arrays.
+Code repository for my [master's thesis](https://doi.org/10.5445/IR/1000165546) on batch-parallel packed memory arrays.
 
 ## Structure
 - ```benchmark/``` is used to run different benchmarks on the different search data structures.
